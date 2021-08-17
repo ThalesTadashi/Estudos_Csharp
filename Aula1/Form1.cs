@@ -19,7 +19,18 @@ namespace Aula1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            byte n1 = 10;
+            int num = 0;
+            char letra = 'c';
+            float valor = 5.3f;
+            string nome = "Thales";
 
+            label1.Text = nome;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
