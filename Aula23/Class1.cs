@@ -11,15 +11,16 @@ namespace Aula23
         static void Main()
         {
             int num = 10;
-            dobrar1(ref num);
-            Console.WriteLine(num);
+            dobrar(num);
+            Console.WriteLine(dobrar(num));
         }
 
 
 
-        static void dobrar(int valor)
+        static int dobrar(int valor)
         {
             valor*=2;
+            return valor;
         }
 
         static void dobrar1(ref int valor)
